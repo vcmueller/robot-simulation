@@ -1,0 +1,62 @@
+#VRML_SIM R2022b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/robots/niryo/ned/protos/Ned.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/robots/k-team/khepera4/protos/Khepera4.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/samples/contests/rockin/protos/RoCKInER02.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.2370317315092388 0.48229024571300194 -0.8433339060821783 1.2281881331136963
+  position -1.302278451252722 1.7271168609302006 1.5191424661472317
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  name "Floor"
+  floorSize 2.5 2
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+}
+Ned {
+  rotation 0 0 1 1.5707996938995747
+  name "Robot Arm"
+}
+Solid {
+  translation -1.008 -1.51465e-15 0.0728282
+  rotation 0 0 1 0.0001857068965786423
+  scale 0.35 0.35 0.35
+  children [
+    DEF CUBE Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0.5
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "Cube"
+  boundingObject USE CUBE
+  physics Physics {
+  }
+}
+Khepera4 {
+  translation -1 -1.51465e-15 -0.000164667
+  rotation 8.418714521241334e-06 -0.0004329619812759274 -0.9999999062365195 0.0010233572886747047
+  name "Mobile Robot"
+}
+RoCKInER02 {
+  translation 2.40053e-08 0.4 -0.000354102
+  rotation 0 1 0 0
+  name "Box"
+  color 0.2 0.1 0
+}
