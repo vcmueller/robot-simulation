@@ -14,7 +14,7 @@ The robot simulation was build using Webots and it has a robot arm and a mobile 
 https://user-images.githubusercontent.com/63685240/200118375-c82e9405-c74c-40da-80d1-c1d75e563dad.mp4
 
 
-A higher resolution version of this same simulation view is available [here](SimulationVideos/FullSceneSimulation.mp4).
+A higher resolution version of this same simulation view is available [here](SimulationVideos/Simulation_FullScene.mp4).
 
 
 ### Simulation Top View
@@ -26,12 +26,12 @@ A higher resolution version of this same simulation view is available [here](Sim
 https://user-images.githubusercontent.com/63685240/200118394-c588ad56-db35-443b-aed9-51912e47b9de.mp4
 
 
-A higher resolution version of this same simulation view is available [here](SimulationVideos/TopSceneSimulation.mp4).
+A higher resolution version of this same simulation view is available [here](SimulationVideos/Simulation_TopScene.mp4).
 
 
 ### Simulation Cube View
 
-- There is also a last video showing the simulation from the view of the cube that is available [here](SimulationVideos/CubeViewSimulation.mp4).
+- There is also a last video showing the simulation from the view of the cube that is available [here](SimulationVideos/Simulation_CubeView.mp4).
 
  
 # How to open the Webots Project locally
